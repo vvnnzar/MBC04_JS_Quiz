@@ -1,0 +1,40 @@
+.hide {
+  display: none;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+section {
+  display: flex-row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin-left: 30rem;
+}
+
+#timer-container {
+  display: -ms-inline-flexbox;
+}
+
+li {
+  list-style-type: none;
+  align-content: center;
+  justify-content: center;
+}
+
+#status {
+  display: grid;
+  justify-content: left;
+}
+
+#initials {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  justify-content: stretch;
+}
+
+hr {
+  margin-right: 50rem;
+}
