@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Quiz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+
+<body class="jumbotron" id="container">
+    <section>
+        <div id="homepage">
+            <h1 class="display-4">JavaScript Quiz</h1>
+            <p class="lead">How well do you know JavaScript?</p>
+            <p class="lead">Test your knowledge by taking this quick quiz.</p>
+            <hr class="my-4">
+            <button id="start" class="btn btn-primary btn-lg" href="#" role="button">Start Quiz</button>
+        </div>
+    </section>
+
+    <section id="timer-container" class="hide">
+        <div>
+            <p id="countdown"></p>
+            <p id="timer"></p>
+        </div>
+    </section>
+
+    <section id="quiz-container" class="hide">
+        <div>
+            <h2 id="quiz-status"></h2>
+            <div id="quiz" class="lead"></div>
+            <hr>
+        </div>
+        <div id="status">
+            <p id="correct"></p>
+            <p id="incorrect"></p>
+        </div>
+    </section>
+
+<section id="results-container" class="hide">
+    <div>
+    <h1 id="results"></h1>
+    <h3 id="score" class="display-4"></h3>
+        <form>
+            <br>
+              <label class="lead">Enter Intials</label>
+              <textarea id="initials" name="initials"></textarea>
+              <br>
+              <hr>
+          <button id="submit" class="btn btn-primary btn-lg">Save Score</button>
+          <button id="retake" class="btn btn-primary btn-lg">Retake Quiz</button>
+        </form>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
