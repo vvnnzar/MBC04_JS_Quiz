@@ -1,7 +1,5 @@
 # MBC04_JS_Quiz
 
-# MBC04_JS_Quiz
-
 Monash Bootcamp Week 4 Assignment - JS Quiz
 
 ### About this project
